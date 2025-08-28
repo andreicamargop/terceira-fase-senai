@@ -4,7 +4,7 @@ import { NavLink } from "react-router";
 const Header = () => {
   return (
     <div>
-        <nav>
+        <nav className='flex' >
       <NavLink to="/" end>
         Home
       </NavLink>
